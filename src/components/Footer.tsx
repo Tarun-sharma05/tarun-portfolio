@@ -6,6 +6,8 @@ export default function Footer() {
         <div className="flex items-center gap-6">
           <a
             href="mailto:tarundadhich05@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-brand-accent transition-colors"
           >
             Email

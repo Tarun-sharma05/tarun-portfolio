@@ -27,6 +27,8 @@ export default function Connect() {
           </a>
           <a
             href="mailto:tarundadhich05@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-brand-card border border-brand-border text-brand-text-heading px-6 py-3 rounded-full font-medium hover:border-brand-accent hover:text-brand-accent transition-all"
           >
             Email
