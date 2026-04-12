@@ -5,7 +5,9 @@ export default function Footer() {
         <p>© 2025 Tarun Sharma. Built with Precision.</p>
         <div className="flex items-center gap-6">
           <a
-            href="mailto:tarundadhich05@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&to=tarundadhich05@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-brand-accent transition-colors"
           >
             Email
