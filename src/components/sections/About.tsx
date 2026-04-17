@@ -12,7 +12,7 @@ export default function About() {
         {/* About Column */}
         <div className="flex flex-col gap-6">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-text-heading">About Me</h2>
-          
+
           <div className="flex flex-col gap-5 text-brand-text-body text-lg leading-relaxed">
             <p>
               I&apos;m Tarun Sharma, an Android developer based in Jaipur, India, focused on building native mobile apps using Kotlin and Jetpack Compose.
@@ -29,18 +29,30 @@ export default function About() {
         {/* Skills Column */}
         <div className="flex flex-col gap-6">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-text-heading">Skills</h2>
-          
+
           <div className="flex flex-col gap-8">
             {skills.map((skillGroup) => (
               <div key={skillGroup.category} className="flex flex-col gap-3">
-                <h3 className="text-xl font-semibold text-brand-text-heading border-b border-brand-border pb-2">
+                <h3
+                  className="text-xl font-semibold text-brand-text-heading pb-2"
+                  style={{ borderBottom: "1px solid rgba(61, 220, 132, 0.15)" }}
+                >
                   {skillGroup.category}
                 </h3>
                 <div className="flex flex-wrap gap-3 mt-2">
                   {skillGroup.tags.map((tag) => (
-                    <span 
-                      key={tag} 
-                      className="bg-brand-tag border border-brand-border px-4 py-2 rounded-lg text-sm font-medium text-brand-text-heading transition-colors hover:border-brand-accent cursor-default"
+                    <span
+                      key={tag}
+                      style={{
+                        border: "1px solid rgba(61, 220, 132, 0.3)",
+                        borderRadius: "4px",
+                        background: "transparent",
+                        color: "#3DDC84",
+                        fontFamily: "'JetBrains Mono', monospace",
+                        fontSize: "11px",
+                        padding: "3px 8px",
+                        cursor: "default",
+                      }}
                     >
                       {tag}
                     </span>
