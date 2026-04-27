@@ -28,7 +28,7 @@ export default function Navbar() {
         </div>
 
         <a
-          href="https://www.dropbox.com/scl/fi/6osbhyonvhqhrweo9w92x/Tarun-Sharma-resume-1.pdf?rlkey=grkd09wn8pzrbafi3ypbztk6j&st=kj04c1bg&dl=0"
+          href="https://www.dropbox.com/scl/fi/xek39f22dqh8tseim3rsf/Tarun_Sharma_Resume_v4.pdf?rlkey=pb3ajsur8956328ydxxct99yw&e=1&st=7d0yo08n&dl=0"
           target="_blank"
           rel="noopener noreferrer"
           className="px-5 py-2 rounded-full font-semibold transition-all hover:brightness-110"

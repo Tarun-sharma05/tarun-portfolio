@@ -33,14 +33,7 @@ export default function Connect() {
           >
             Email
           </a>
-          <a
-            href="https://www.dropbox.com/scl/fi/6osbhyonvhqhrweo9w92x/Tarun-Sharma-resume-1.pdf?rlkey=grkd09wn8pzrbafi3ypbztk6j&st=kj04c1bg&dl=0"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-brand-accent text-brand-accent-dark px-6 py-3 rounded-full font-bold hover:bg-white transition-colors"
-          >
-            Download Resume
-          </a>
+
         </div>
 
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 text-left">

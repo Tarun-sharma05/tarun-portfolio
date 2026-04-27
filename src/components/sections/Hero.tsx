@@ -38,14 +38,7 @@ export default function Hero() {
           >
             View My Work →
           </Link>
-          <a
-            href="https://www.dropbox.com/scl/fi/6osbhyonvhqhrweo9w92x/Tarun-Sharma-resume-1.pdf?rlkey=grkd09wn8pzrbafi3ypbztk6j&st=kj04c1bg&dl=0"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-brand-accent text-brand-accent px-8 py-3 rounded-full font-semibold hover:bg-brand-accent hover:text-brand-accent-dark transition-colors"
-          >
-            Download Resume
-          </a>
+
         </div>
       </div>
     </section>
